@@ -2,6 +2,10 @@
 A proof-of-concept Python script demonstrating networked overlay using a "client-server model" (based on wise words from Snipcola).
 This project was built for fun and as a way to experiment with networking between 2 computers, originally started off as AI cheats.
 
+[Demonstration](https://www.youtube.com/watch?v=L4YBFyglvmY)
+
+The ``Base`` folder contains the client-server files that I first made then worked up from.
+
 # Overview
 The idea of this project is to minimise the usage on the client (game) machine. The only responsibility is to read game memory and to render the overlay.
 All the "heavy lifting" is done by the server PC, e.g. calculations, entity processing, etc...
